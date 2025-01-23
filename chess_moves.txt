@@ -1,0 +1,11 @@
+e4
+Nf3
+Bb5
+O-O
+O-O-O
+e8=Q
+e5+
+e6#
+Qa3
+xg6
+
