@@ -82,14 +82,14 @@ This program validates YouTube links by reading them from an input file. It chec
 ## Output
 ![Output](https://github.com/SakshiBiyani02/Lex_programs/blob/main/Screenshot%202025-02-23%20133854.png?raw=true)
 ## Test cases explanation
--Valid YouTube Link
--- Input: https://www.youtube.com/watch?v=dQw4w9WgXcq
--- Output: Valid YouTube Link: https://www.youtube.com/watch?v=dQw4w9WgXcq
--- Reason: The link starts with https://www.youtube.com/watch?v= and contains a valid video ID, so it passes the validation and is recognized as valid.
--Invalid YouTube Link
---	Input: https://www.example.com
---	Output: Invalid YouTube Link: https://www.example.com
---	Reason: The link lacks the required YouTube structure (https://www.youtube.com/watch?v= or https://youtu.be/) and is marked as invalid.
+1. Valid YouTube Link
+- Input: https://www.youtube.com/watch?v=dQw4w9WgXcq
+- Output: Valid YouTube Link: https://www.youtube.com/watch?v=dQw4w9WgXcq
+- Reason: The link starts with https://www.youtube.com/watch?v= and contains a valid video ID, so it passes the validation and is recognized as valid.
+2. Invalid YouTube Link
+- Input: https://www.example.com
+- Output: Invalid YouTube Link: https://www.example.com
+-	Reason: The link lacks the required YouTube structure (https://www.youtube.com/watch?v= or https://youtu.be/) and is marked as invalid.
 # 4.Lex Program for Parsing and Validating Airline Ticket Codes
 This program utilizes Lex to parse an input file containing airline ticket codes and validate their formats. The valid format is defined as three uppercase letters followed by three digits (e.g., "ABC123"). The program reads from a specified input file, processes each line to determine whether it is a valid ticket code, and outputs the results accordingly.
 ## Procedure
