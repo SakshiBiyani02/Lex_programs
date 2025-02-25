@@ -15,8 +15,10 @@ This Lex program verifies the validity of chess moves written in standard algebr
 1.	Generate C File from Lex Program: flex chess.l
 2.	Compile the C File: gcc lex.yy.c -o chess
 3.	Run the Program with Input File: ./chess chess_moves.txt
+## Input
+![Input](https://github.com/SakshiBiyani02/Lex_programs/blob/main/Screenshot%202025-02-23%20133938.png?raw=true)
 ## Output 
-![Output](?raw=true)
+![Output](https://github.com/SakshiBiyani02/Lex_programs/blob/main/Screenshot%202025-02-23%20133946.png?raw=true)
 ## Test cases explanation
 - Valid Move: e4
 1.	Move Description: The move e4 indicates that a pawn is being moved from its starting position (e2) to the e4 square on the chessboard.
@@ -52,8 +54,10 @@ Examples:
 1.	Generate C File from Lex Program: flex timezone.l
 2.	Compile the C File: gcc lex.yy.c -o timezone
 3.	Run the Program with Input File: ./timezone input.txt
+## Input
+![Input](https://github.com/SakshiBiyani02/Lex_programs/blob/main/Screenshot%202025-02-23%20133814.png?raw=true)
 ## Output
-![Output](?raw=true)
+![Output](https://github.com/SakshiBiyani02/Lex_programs/blob/main/Screenshot%202025-02-23%20133827.png?raw=true)
 ## Test cases explanation
 GMT:
 -	Matches the valid time zone pattern [A-Z]{1,3}(_[A-Z]{1,3})?.
@@ -69,18 +73,14 @@ This program validates YouTube links by reading them from an input file. It chec
 2.	Flex Program: The program uses Flex (a lexical analyzer) to define patterns for valid YouTube links.
 3.	Compilation: The Flex file is compiled using GCC to create an executable.
 4.	Execution: When the executable runs, it reads the links from the input file, checks their validity, and prints the results.
-## Input.txt file 
-https://www.youtube.com/watch?v=dQw4w9WgXcq                          
-https://youtu.be/dQw4w9WgXcq
-https://www.example.com
-https://www.youtube.com/watch?v=abcdefghijk
-https://youtu.be/abcdefghijk
 ## Lex Executable Commands
 1.	Generate C File from Lex Program: flex youtube_links.l
 2.	Compile the C File: gcc lex.yy.c -o youtube_links
 3.	Run the Program with Input File: ./youtube_links 
+## Input.txt file 
+![Input](https://github.com/SakshiBiyani02/Lex_programs/blob/main/Screenshot%202025-02-23%20133844.png?raw=true)
 ## Output
-![Output](?raw=true)
+![Output](https://github.com/SakshiBiyani02/Lex_programs/blob/main/Screenshot%202025-02-23%20133854.png?raw=true)
 ## Test cases explanation
 -Valid YouTube Link
 -- Input: https://www.youtube.com/watch?v=dQw4w9WgXcq
@@ -106,8 +106,10 @@ This program utilizes Lex to parse an input file containing airline ticket codes
 1.	Generate C File from Lex Program: flex ticket.l
 2.	Compile the C File: gcc lex.yy.c -o ticket
 3.	Run the Program with Input File: ./ticket inp.txt
+## Input
+![Input](https://github.com/SakshiBiyani02/Lex_programs/blob/main/Screenshot%202025-02-23%20133904.png?raw=true)
 ## Output
-![Output](?raw=true)
+![Output](https://github.com/SakshiBiyani02/Lex_programs/blob/main/Screenshot%202025-02-23%20133913.png?raw=true)
 ## Test case explanation
 1.	Valid Ticket Codes:
 -	ABC123: Matches the pattern (3 letters + 3 digits), thus classified as valid.
@@ -128,8 +130,14 @@ o	Create a new folder for your project and open it in Visual Studio Code (VSCode
 6.	Create the Input File: Create a file named gps_coords.txt in the same folder and add test airline ticket codes.
 7.	Compilation: The Flex file is compiled using GCC to create an executable.
 8.	Execution: When the executable runs, it reads the links from the input file, checks their validity, and prints the results.
+## Lex Executable Commands
+1.	Generate C File from Lex Program: flex gps_coordinates.l
+2.	Compile the C File: gcc lex.yy.c -o gps_coordinates
+3.	Run the Program with Input File: ./gps_coordinates gps_coords.txt
+## Input 
+![Input](https://github.com/SakshiBiyani02/Lex_programs/blob/main/Screenshot%202025-02-23%20133921.png?raw=true)
 ## Output
-![Output](?raw=true)
+![Output](https://github.com/SakshiBiyani02/Lex_programs/blob/main/Screenshot%202025-02-23%20133930.png?raw=true)
 ## Test case explanation
 - Case 1: Valid GPS Coordinate
 Input: 37.7749,-122.4194
